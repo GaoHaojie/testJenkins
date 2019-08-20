@@ -1,0 +1,29 @@
+#
+# spring:
+#  datasource:
+#        type: com.alibaba.druid.pool.DruidDataSource
+#        driverClassName: com.mysql.cj.jdbc.Driver
+#        druid:
+#            url: jdbc:mysql://127.0.0.1:3306/test?allowMultiQueries=true&useUnicode=true&characterEncoding=UTF-8&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC
+#            username: root
+#            password: root
+#  server:
+#       port: 8080
+#  mybatis:
+#        type-aliases-package: com.test.shiro.entity
+#        mapper-locations: classpath:com/test/shiro/mapper/*Mapper.xml
+
+ spring:
+    datasource:
+        type: com.alibaba.druid.pool.DruidDataSource
+        driverClassName: com.mysql.cj.jdbc.Driver
+        druid:
+            url: jdbc:mysql://127.0.0.1:3306/test?allowMultiQueries=true&useUnicode=true&characterEncoding=UTF-8&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC
+            username: root
+            password: root
+    server:
+        port: 8080
+ mybatis:
+      type-aliases-package: com.test.shiro.entity
+      mapper-locations: classpath:com/test/shiro/mapper/*Mapper.xml
+
